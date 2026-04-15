@@ -79,5 +79,7 @@ Mais sobre Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Entendendo 
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Observamos que diferentes modelos de linguagem apresentam comportamentos distintos mesmo quando recebem exatamente o mesmo System Prompt. Embora ChatGPT, Copilot e Claude tenham seguido a proposta geral e entregado respostas adequadas, cada um adotou seu próprio estilo e estrutura ao responder. No geral, todos conseguiram interpretar bem o papel definido.
+A única exceção foi o ChatGPT, que acabou se confundindo no caso de pergunta fora do escopo — especificamente quando o usuário perguntou sobre a previsão do tempo. Nesse ponto, ele não manteve o padrão esperado para edge cases. Ainda assim, o desempenho geral dos três modelos foi consistente e funcional dentro do objetivo proposto.
+
+- Uma lição importante desse teste é que, mesmo quando diferentes modelos seguem o mesmo System Prompt, cada LLM interpreta nuances de forma própria. Isso mostra que, ao projetar agentes ou assistentes especializados, vale sempre validar o comportamento em múltiplos modelos para garantir consistência — especialmente em situações sensíveis, como edge cases e recusas éticas. Também ficou claro que fornecer exemplos explícitos no prompt ajuda bastante a alinhar o comportamento, reduzindo variações inesperadas entre os modelos.
