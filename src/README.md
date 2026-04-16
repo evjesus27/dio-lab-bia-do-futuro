@@ -32,32 +32,3 @@ streamlit run .\src\app.py
 <img width="310" height="285" alt="image" src="https://github.com/user-attachments/assets/7a7ba25c-8851-4104-8a59-8874aacec345" />
 
 
-# Código da Aplicação
-
-Esta pasta contém o código do seu agente financeiro.
-
-## Estrutura Sugerida
-
-```
-src/
-├── app.py              # Aplicação principal (Streamlit)
-
-```
-
-## Exemplo de requirements.txt
-
-```
-streamlit
-openai
-python-dotenv
-```
-
-## Como Rodar
-
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
-# Rodar a aplicação
-streamlit run app.py
-```
